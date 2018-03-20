@@ -1,0 +1,50 @@
+ MODEL COMMAND LINE RUNNING PARAMETERS:
+ -Q 1  >> Seasonal Forcing Control:
+      Q = 0 (Non-activation of an equivalent Transmission Rate)
+      Q = 1 (Non Seasonal Forced dynamics with an equivalent Beta)
+ -S 2  >> Seasonal Forcing Control:
+        S = 0 (No Seasonal Forcing)
+        S = 1 (Sinusoidal Seasonal Forcing)
+        S = 2 (beta = b_0 * (1 + b_1)^(Term))
+        S = 3 (beta = b_0 * (1. + Term * b_1))
+        where Term is +1 for school terms and -1 for holidays
+ -R 500 >> No REPLICAS or Stochastic Realizations
+ -L 1000000 >> Simulation Length
+ -F 2048 >> No. of Points entering Spectral Analysis
+ Times defining the Staonary Regim:
+ -t0 500.000000 >> Initial Time
+ -t1 60000.000000 >> Final Time
+ -I 138 >> Initial number of Infective Individuals
+ -M 44970 >> Initial number of Immune Individuals
+ -d 5.5e-05 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 0.4 >> 	b=0.4
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_0 = 0.4 and b_1= 0.25
+ -Y 365 >> Characteristic Period of the Seasonal Forcing
+  External Transmission Rates (Immigration):
+ -e 1e-05
+ -mu 0 >> Loss of Immnunity Rate
+ -g 0.077 >> Recovery Rate from the infection phase
+ -P 100000 >> Population Size in the Villages
+
+Initial Seasonal Transmission Rate: Beta = 0.4 *(1. + 0.25)^(Term),
+being Term = -1.,1.
+Equivalent Constant Transmission Rate: Beta = 0.396834	b_1 = 0.
+Ininitial Condition: Population Values at the stationary state (Imm = 0):
+Populations fractions at Equilibrium (Imm = 0)...
+Susceptible: 0.194175
+Infective:   0.000575179
+Susceptible, S(0) = 19417.460169	Infective, I(0) = 57
+
+Initial Condition: Population Values at the statinary state (Imm = 1e-05):
+Populations fractions at Equilibrium (Imm = 1e-05)...
+Susceptible: 0.186102
+Infective:   0.000580941
+Susceptible, S(0) = 18610.204821	Infective, I(0) = 58
+Between 500.000000 and 60000.000000 there are 2006 points: t[2006] = 59988.910156
+Between 500.000000 and 60000.000000 there are only 2006 points!
+Stochastic simulations should last longer, i.e, t_1 should be larger

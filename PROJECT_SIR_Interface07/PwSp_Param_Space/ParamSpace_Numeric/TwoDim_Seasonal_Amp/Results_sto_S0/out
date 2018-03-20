@@ -1,0 +1,79 @@
+ MODEL RUNNING PARAMETERS:
+ -N 200 >> No. of Points to be saved
+ -P 100000 >> Population Size in the Villages
+ -d 5.5e-05 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 1.175 >> 	b=1.175
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_m = 0 and b_M= 30
+ -D[k]   >> Maximum and Minimum Relative Infectious phase (d/g) to be scanned
+       >> k = 0,1
+       >> d_0 = 0 and d_1= 0.01
+ -m 0 >> Loss of Immnunity Rate
+ -g 0.0769231 >> Recovery Rate from the infection phase
+ -e 1e-05 >> Immgration Induced transmission rate
+ -T 500.000000 >> Immgration Induced transmission rate
+
+Populations fractions at Equilibrium (Imm = 0)...
+Susceptible: 0.0655133
+Infective:   0.000667681
+Stability Analysis Isolated System (Imm = 0)...
+Det(A) = 6.03912e-05	Tra(A) = -0.000839525
+Fix Point is Stable when Det(A) > 0 and Tra(A) < 0
+Stable Point shows damped oscillations if C = Det(A)-1/4*Tra^2(A) > 0
+Stable Point shows internally-induced resonant cycles if D = Det(A)-1/2*Tra^2(A)>0
+C = 6.0215e-05	D = 6.00388e-05
+Characteristic Frequency of Damped oscillations, w_0 = 0.00123502
+Characteristic Period of Damped oscillations, T_0 = 809.706
+Characteristic Frequency of Ressonant oscillations, w_0 = 0.00123321
+Characteristic Period of Ressonant oscillations, T_0 = 810.894
+Populations fractions at Equilibrium (Imm = 1e-05)...
+Susceptible: 0.0646894
+Infective:   0.000668269
+Stability Analysis Non Isolated SIR System (Imm = 1e-05)...
+Det(A) = 6.12675e-05	Tra(A) = -0.00181823
+Fix Point is Stable when Det(A) > 0 and Tra(A) < 0
+Stable Point shows damped oscillations if C = Det(A)-1/4*Tra^2(A) > 0
+Stable Point shows internally-induced resonant cycles if D = Det(A)-1/2*Tra^2(A)>0
+C = 6.0441e-05	D = 5.96145e-05
+Characteristic Frequency of Damped oscillations, w_0 = 0.00123733
+Characteristic Period of Damped oscillations, T_0 = 808.191 = 2.21422 y.
+Characteristic Frequency of Ressonant oscillations, w_0 = 0.00122884
+Characteristic Period of Ressonant oscillations, T_0 = 813.774 = 2.22952 y.
+
+Dimensionless Parameaters: b/g = 15.275; g/g = 1; Imm/g = 0.00013
+NOTE: This calculation assumes dimensionless parameters.
+Generated File name: imm_0.eps
+Max Value: 7.064286	Min Value: 0.000000
+Dimensionless Parameaters: b/g = 30; g/g = 1; Imm/g = 0.0001
+NOTE: This calculation assumes dimensionless parameters.
+Generated File name: imm_1.eps
+Max Value: 8.800000	Min Value: 0.000000
+Dimensionless Parameaters: b/g = 30; g/g = 1; Imm/g = 0.001
+NOTE: This calculation assumes dimensionless parameters.
+Generated File name: imm_2.eps
+Max Value: 2.250000	Min Value: 0.000000
+ MODEL RUNNING PARAMETERS:
+ -N 200 >> No. of Points to be saved
+ -P 100000 >> Population Size in the Villages
+ -d 0.01 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 30 >> 	b=30
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_m = 0 and b_M= 30
+ -D[k]   >> Maximum and Minimum Relative Infectious phase (d/g) to be scanned
+       >> k = 0,1
+       >> d_0 = 0 and d_1= 0.01
+ -m 0 >> Loss of Immnunity Rate
+ -g 1 >> Recovery Rate from the infection phase
+ -e 0.001 >> Immgration Induced transmission rate
+ -T 500.000000 >> Immgration Induced transmission rate
+
+
+End of progam

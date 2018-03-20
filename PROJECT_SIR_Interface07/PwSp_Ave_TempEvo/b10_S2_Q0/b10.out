@@ -1,0 +1,1031 @@
+The number of frequency points will be 1024
+ MODEL RUNNING PARAMETERS:
+ -Q 0  >> Seasonal Forcing Control:
+      Q = 0 (Non-activation of an equivalent Transmission Rate)
+      Q = 1 (Non Seasonal Forced dynamics with an equivalent Beta)
+ -S 2  >> Seasonal Forcing Control:
+        S = 0 (No Seasonal Forcing)
+        S = 1 (Sinusoidal Seasonal Forcing)
+        S = 2 (beta = b_0 * (1 + b_1)^(Term)
+        S = 3 (beta = b_0 * (1. + Term * b_1)
+        where Term is +1 for school terms and -1 for holidays
+ -R 400 >> No REPLICAS or Stochastic Realizations
+ -K 2 >> No. of segments in which the time series will be fragmented
+ -T 8192 >> No. of Times to be saved
+ -t0 0.000000 >> Initial Time
+ -t1 0.000000 >> Final Time
+ -Z 60.000000 >> Step Size
+ -E 2.000000 >> Maximum Error in Step Size
+ -I 10 >> Initial number of Infective Individuals
+ -M 1000 >> Initial number of Immune Individuals
+ -d 5.5e-05 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 10 >> 	b=10
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_0 = 10 and b_1= 0.25
+ -mu 0 >> Loss of Immnunity Rate
+ -g 0.077 >> Recovery Rate from the infection phase
+  External Transmission Rate (Immigration):
+ -e 2e-06
+ -P 500000 >> Population Size in the Villages
+
+Sampling Interval (days): 60
+Entering Generation of Stochastic Realizations...
+Ininitial Condition: Population Values at the stationary state (Imm = 0):
+Populations fractions at Equilibrium (Imm = 0)...
+Susceptible: 0.00776698
+Infective:   0.000708232
+Susceptible, S(0) = 3883.492034	Infective, I(0) = 354
+
+Initial Condition: Population Values at the statinary state (Imm = 2e-06):
+Populations fractions at Equilibrium (Imm = 2e-06)...
+Susceptible: 0.00776477
+Infective:   0.000708234
+Susceptible, S(0) = 3882.386928	Infective, I(0) = 354
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 1 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 2 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 3 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 4 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 5 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 6 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 7 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 8 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 9 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 10 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 11 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 12 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 13 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 14 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 15 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 16 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 17 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 18 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 19 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 20 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 21 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 22 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 23 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 24 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 25 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 26 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 27 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 28 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 29 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 30 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 31 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 32 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 33 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 34 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 35 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 36 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 37 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 38 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 39 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 40 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 41 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 42 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 43 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 44 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 45 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 46 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 47 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 48 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 49 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 50 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 51 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 52 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 53 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 54 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 55 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 56 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 57 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 58 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 59 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 60 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 61 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 62 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 63 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 64 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 65 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 66 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 67 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 68 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 69 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 70 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 71 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 72 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 73 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 74 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 75 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 76 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 77 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 78 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 79 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 80 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 81 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 82 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 83 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 84 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 85 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 86 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 87 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 88 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 89 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 90 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 91 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 92 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 93 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 94 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 95 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 96 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 97 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 98 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 99 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 100 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 101 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 102 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 103 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 104 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 105 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 106 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 107 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 108 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 109 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 110 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 111 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 112 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 113 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 114 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 115 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 116 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 117 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 118 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 119 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 120 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 121 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 122 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 123 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 124 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 125 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 126 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 127 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 128 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 129 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 130 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 131 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 132 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 133 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 134 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 135 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 136 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 137 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 138 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 139 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 140 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 141 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 142 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 143 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 144 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 145 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 146 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 147 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 148 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 149 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 150 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 151 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 152 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 153 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 154 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 155 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 156 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 157 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 158 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 159 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 160 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 161 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 162 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 163 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 164 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 165 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 166 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 167 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 168 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 169 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 170 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 171 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 172 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 173 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 174 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 175 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 176 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 177 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 178 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 179 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 180 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 181 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 182 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 183 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 184 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 185 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 186 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 187 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 188 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 189 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 190 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 191 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 192 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 193 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 194 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 195 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 196 of a total of 400
+Power Spectra calculated and accumulated...
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 197 of 

@@ -1,0 +1,88 @@
+The number of frequency points will be 256
+ MODEL RUNNING PARAMETERS:
+ -D 0  >> Disarding time series where there is an extinction:
+      D = 0 (Without discarding Extinctions)
+      D = 1 (Discarding Extinctions)
+ -Q 1  >> Seasonal Forcing Control:
+      Q = 0 (Non-activation of an equivalent Transmission Rate)
+      Q = 1 (Non Seasonal Forced dynamics with an equivalent Beta)
+ -S 2  >> Seasonal Forcing Control:
+        S = 0 (No Seasonal Forcing)
+        S = 1 (Sinusoidal Seasonal Forcing)
+        S = 2 (beta = b_0 * (1 + b_1)^(Term)
+        S = 3 (beta = b_0 * (1. + Term * b_1)
+        where Term is +1 for school terms and -1 for holidays
+ -R 400 >> No REPLICAS or Stochastic Realizations
+ -K 2 >> No. of segments in which the time series will be fragmented
+ -T 2048 >> No. of Times to be saved
+ -W 500 >> No. of Times to be dicard
+ -t0 0.000000 >> Initial Time
+ -t1 0.000000 >> Final Time
+ -Z 60.000000 >> Step Size
+ -E 2.000000 >> Maximum Error in Step Size
+ -I 10 >> Initial number of Infective Individuals
+ -M 1000 >> Initial number of Immune Individuals
+ -d 5.5e-05 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 1.5 >> 	b=1.5
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_0 = 1.5 and b_1= 0.25
+ -mu 0 >> Loss of Immnunity Rate
+ -g 0.077 >> Recovery Rate from the infection phase
+  External Transmission Rate (Immigration):
+ -e 2e-06
+ -P 500000 >> Population Size in the Villages
+
+
+  Non Seasonal Forcing with an equivalent effective Transmission Rate (Beta)
+  Initial Seasonal Transmission Rate: Beta = 1.5 *(1. + 0.25)^(Term),
+  being Term = -1.,1.
+  Equivalent Constant Transmission Rate: Beta = 1.48813	b_1 = 0.
+Sampling Interval (days): 60
+Entering Generation of Stochastic Realizations...
+Ininitial Condition: Population Values at the stationary state (Imm = 0):
+Populations fractions at Equilibrium (Imm = 0)...
+Susceptible: 0.0517799
+Infective:   0.000676817
+Susceptible, S(0) = 25889.946892	Infective, I(0) = 338
+
+Initial Condition: Population Values at the statinary state (Imm = 2e-06):
+Populations fractions at Equilibrium (Imm = 2e-06)...
+Susceptible: 0.0516773
+Infective:   0.00067689
+Susceptible, S(0) = 25838.643979	Infective, I(0) = 338
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 1 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 2 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 3 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 4 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 5 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 6 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times =

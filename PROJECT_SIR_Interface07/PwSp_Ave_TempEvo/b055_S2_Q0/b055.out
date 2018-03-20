@@ -1,0 +1,587 @@
+The number of frequency points will be 256
+ MODEL RUNNING PARAMETERS:
+ -D 0  >> Disarding time series where there is an extinction:
+      D = 0 (Without discarding Extinctions)
+      D = 1 (Discarding Extinctions)
+ -Q 0  >> Seasonal Forcing Control:
+      Q = 0 (Non-activation of an equivalent Transmission Rate)
+      Q = 1 (Non Seasonal Forced dynamics with an equivalent Beta)
+ -S 2  >> Seasonal Forcing Control:
+        S = 0 (No Seasonal Forcing)
+        S = 1 (Sinusoidal Seasonal Forcing)
+        S = 2 (beta = b_0 * (1 + b_1)^(Term)
+        S = 3 (beta = b_0 * (1. + Term * b_1)
+        where Term is +1 for school terms and -1 for holidays
+ -R 400 >> No REPLICAS or Stochastic Realizations
+ -K 2 >> No. of segments in which the time series will be fragmented
+ -T 2048 >> No. of Times to be saved
+ -W 500 >> No. of Times to be dicard
+ -t0 0.000000 >> Initial Time
+ -t1 0.000000 >> Final Time
+ -Z 60.000000 >> Step Size
+ -E 2.000000 >> Maximum Error in Step Size
+ -I 10 >> Initial number of Infective Individuals
+ -M 1000 >> Initial number of Immune Individuals
+ -d 5.5e-05 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 0.55 >> 	b=0.55
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_0 = 0.55 and b_1= 0.25
+ -mu 0 >> Loss of Immnunity Rate
+ -g 0.077 >> Recovery Rate from the infection phase
+  External Transmission Rate (Immigration):
+ -e 1e-05
+ -P 500000 >> Population Size in the Villages
+
+Sampling Interval (days): 60
+Entering Generation of Stochastic Realizations...
+Ininitial Condition: Population Values at the stationary state (Imm = 0):
+Populations fractions at Equilibrium (Imm = 0)...
+Susceptible: 0.141218
+Infective:   0.000612978
+Susceptible, S(0) = 70608.946069	Infective, I(0) = 306
+
+Initial Condition: Population Values at the statinary state (Imm = 1e-05):
+Populations fractions at Equilibrium (Imm = 1e-05)...
+Susceptible: 0.137137
+Infective:   0.000615891
+Susceptible, S(0) = 68568.569408	Infective, I(0) = 307
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 1 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 2 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 3 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 4 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 5 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 6 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 7 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 8 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 9 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 10 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 11 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 12 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 13 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 14 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 15 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 16 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 17 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 18 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 19 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 20 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 21 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 22 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 23 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 24 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 25 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 26 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 27 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 28 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 29 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 30 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 31 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 32 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 33 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 34 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 35 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 36 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 37 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 38 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 39 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 40 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 41 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 42 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 43 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 44 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 45 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 46 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 47 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 48 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 49 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 50 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 51 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 52 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 53 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 54 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 55 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 56 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 57 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 58 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 59 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 60 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 61 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 62 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 63 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 64 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 65 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 66 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 67 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 68 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 69 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 70 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 71 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 72 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 73 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 74 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 75 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 76 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 77 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 78 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 79 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 80 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 81 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 82 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 83 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 84 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 85 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 86 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 87 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 88 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 89 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 90 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 91 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 92 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 93 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 94 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 95 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 96 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 97 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 98 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 99 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 100 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 101 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 102 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 103 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 104 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 105 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 106 of a total of 400
+There were 0 extinctions	These series are discarded to calculate power spectra
+Time failed if Bad_Times is 1	 Bad_Times = 0
+   If you don't like to fail, try to choose a larger EPSILON -E 2,
+   because accuracy might be too stringent (EPSILON too low)!
+Realization: 107 of a total of 400
+There were 0 extinctions	These ser

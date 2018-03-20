@@ -1,0 +1,27 @@
+float beta_R_0_delta(float (*Function)(float, float), float b0, float b1, float Tolerance, float d);
+float Delta_2_DimLess_2(float b, float d);
+float Delta_2_DimLess_4(float b, float d);
+float Discriminant_Zero_2(float b, float d);
+float Discriminant_Zero_4(float b, float d);
+float beta_2(float d, float signe);
+float beta_4(float d, float signe);
+double Delta_2(double a, double d, double g, double mu, double b);
+double Omega_2(double a, double d, double g, double mu, double b);
+double Alpha(double a, double d, double g, double mu, double b, int I);
+double Beta(double a, double d, double g, double mu, double b, int I);
+double Damping_Frequency(double a, double d, double g, double mu, double b);
+double Resonance_Frequency(double a, double d, double g, double mu, double b);
+double Peak_Frequency(double a, double d, double g, double mu, double b, int I);
+double Peak_Frequency_Approx(double a, double d, double g, double mu, double b, int I);
+double Maximum_Power(double a, double d, double g, double mu, double b, int I);
+double Trace_2(double a, double d, double g, double mu, double b);
+double Fi(double a, double d, double g, double mu, double b);
+double Psi(double a, double d, double g, double mu, double b);
+double a_12(double a, double d, double g, double mu, double b);
+double a_21(double a, double d, double g, double mu, double b);
+double a_22(double a, double d, double g, double mu, double b);
+double b_11(double a, double d, double g, double mu, double b);
+double b_12(double a, double d, double g, double mu, double b);
+double b_21(double a, double d, double g, double mu, double b);
+double b_22(double a, double d, double g, double mu, double b);
+

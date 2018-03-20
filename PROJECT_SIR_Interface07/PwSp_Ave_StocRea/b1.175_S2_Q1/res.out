@@ -1,0 +1,104 @@
+ MODEL COMMAND LINE RUNNING PARAMETERS:
+ -Q 1  >> Seasonal Forcing Control:
+      Q = 0 (Non-activation of an equivalent Transmission Rate)
+      Q = 1 (Non Seasonal Forced dynamics with an equivalent Beta)
+ -S 2  >> Seasonal Forcing Control:
+        S = 0 (No Seasonal Forcing)
+        S = 1 (Sinusoidal Seasonal Forcing)
+        S = 2 (beta = b_0 * (1 + b_1)^(Term))
+        S = 3 (beta = b_0 * (1. + Term * b_1))
+        where Term is +1 for school terms and -1 for holidays
+ -R 5 >> No REPLICAS or Stochastic Realizations
+ -L 1000000 >> Simulation Length
+ -F 2048 >> No. of Points entering Spectral Analysis
+ Times defining the Staonary Regim:
+ -t0 500.000000 >> Initial Time
+ -t1 60000.000000 >> Final Time
+ -I 138 >> Initial number of Infective Individuals
+ -M 44970 >> Initial number of Immune Individuals
+ -d 5.5e-05 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 1.175 >> 	b=1.175
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_0 = 1.175 and b_1= 0.25
+ -Y 365 >> Characteristic Period of the Seasonal Forcing
+  External Transmission Rates (Immigration):
+ -e 1e-05
+ -m 0 >> Loss of Immnunity Rate
+ -g 0.077 >> Recovery Rate from the infection phase
+ -P 100000 >> Population Size in the Villages
+
+Initial Seasonal Transmission Rate: Beta = 1.175 *(1. + 0.25)^(Term),
+being Term = -1.,1.
+Equivalent Constant Transmission Rate: Beta = 1.1657	b_1 = 0.
+Ininitial Condition: Population Values at the stationary state (Imm = 0):
+Populations fractions at Equilibrium (Imm = 0)...
+Susceptible: 0.066102
+Infective:   0.000666594
+Susceptible, S(0) = 6610.199206	Infective, I(0) = 66
+
+Initial Condition: Population Values at the statinary state (Imm = 1e-05):
+Populations fractions at Equilibrium (Imm = 1e-05)...
+Susceptible: 0.0652629
+Infective:   0.000667193
+Susceptible, S(0) = 6526.286354	Infective, I(0) = 66
+Between 500.000000 and 60000.000000 there are 2291 points: t[2291] = 59997.992188
+Standarized fluctuations calculated...
+Power Spectra calculated and accumulated...
+Between 500.000000 and 60000.000000 there are 2294 points: t[2294] = 59983.320312
+Standarized fluctuations calculated...
+Power Spectra calculated and accumulated...
+Between 500.000000 and 60000.000000 there are 2296 points: t[2296] = 59997.851562
+Standarized fluctuations calculated...
+Power Spectra calculated and accumulated...
+Between 500.000000 and 60000.000000 there are 2296 points: t[2296] = 59956.441406
+Standarized fluctuations calculated...
+Power Spectra calculated and accumulated...
+Between 500.000000 and 60000.000000 there are 2295 points: t[2295] = 59967.531250
+Standarized fluctuations calculated...
+Power Spectra calculated and accumulated...
+Number of valid Realizations... 5
+Effective time Sampling interval (days)... 25.8899
+Overall_Power = 1.80132e+09	Mean Squared Amplitude = 3.91509e+08
+Overall_Power = -7.73438e+08	Mean Squared Amplitude = -7.43919e+08
+Populations fractions at Equilibrium (Imm = 1e-05)...
+Susceptible: nan
+Infective:   0.000667193
+ MODEL COMMAND LINE RUNNING PARAMETERS:
+ -Q 1  >> Seasonal Forcing Control:
+      Q = 0 (Non-activation of an equivalent Transmission Rate)
+      Q = 1 (Non Seasonal Forced dynamics with an equivalent Beta)
+ -S 0  >> Seasonal Forcing Control:
+        S = 0 (No Seasonal Forcing)
+        S = 1 (Sinusoidal Seasonal Forcing)
+        S = 2 (beta = b_0 * (1 + b_1)^(Term))
+        S = 3 (beta = b_0 * (1. + Term * b_1))
+        where Term is +1 for school terms and -1 for holidays
+ -R 5 >> No REPLICAS or Stochastic Realizations
+ -L 1000000 >> Simulation Length
+ -F 2048 >> No. of Points entering Spectral Analysis
+ Times defining the Staonary Regim:
+ -t0 500.000000 >> Initial Time
+ -t1 60000.000000 >> Final Time
+ -I 66 >> Initial number of Infective Individuals
+ -M 93406 >> Initial number of Immune Individuals
+ -d 5.5e-05 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 1.175 >> 	b=1.175
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_0 = 1.175 and b_1= 0.25
+ -Y 365 >> Characteristic Period of the Seasonal Forcing
+  External Transmission Rates (Immigration):
+ -e 1e-05
+ -m 0 >> Loss of Immnunity Rate
+ -g 0.077 >> Recovery Rate from the infection phase
+ -P 100000 >> Population Size in the Villages
+
+
+End of progam

@@ -1,0 +1,2490 @@
+The number of frequency points will be 1024
+ MODEL RUNNING PARAMETERS:
+ -Q 0  >> Seasonal Forcing Control:
+      Q = 0 (Non-activation of an equivalent Transmission Rate)
+      Q = 1 (Non Seasonal Forced dynamics with an equivalent Beta)
+ -S 2  >> Seasonal Forcing Control:
+        S = 0 (No Seasonal Forcing)
+        S = 1 (Sinusoidal Seasonal Forcing)
+        S = 2 (beta = b_0 * (1 + b_1)^(Term)
+        S = 3 (beta = b_0 * (1. + Term * b_1)
+        where Term is +1 for school terms and -1 for holidays
+ -R 400 >> No REPLICAS or Stochastic Realizations
+ -K 2 >> No. of segments in which the time series will be fragmented
+ -T 8192 >> No. of Times to be saved
+ -t0 0.000000 >> Initial Time
+ -t1 0.000000 >> Final Time
+ -Z 60.000000 >> Step Size
+ -E 2.000000 >> Maximum Error in Step Size
+ -I 10 >> Initial number of Infective Individuals
+ -M 1000 >> Initial number of Immune Individuals
+ -d 5.5e-05 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 3.5 >> 	b=3.5
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_0 = 3.5 and b_1= 0.25
+ -mu 0 >> Loss of Immnunity Rate
+ -g 0.077 >> Recovery Rate from the infection phase
+  External Transmission Rate (Immigration):
+ -e 1e-05
+ -P 3000000 >> Population Size in the Villages
+
+Sampling Interval (days): 60
+Entering Generation of Stochastic Realizations...
+Ininitial Condition: Population Values at the stationary state (Imm = 0):
+Populations fractions at Equilibrium (Imm = 0)...
+Susceptible: 0.0220157
+Infective:   0.000698062
+Susceptible, S(0) = 66047.142857	Infective, I(0) = 2094
+
+Initial Condition: Population Values at the statinary state (Imm = 1e-05):
+Populations fractions at Equilibrium (Imm = 1e-05)...
+Susceptible: 0.021926
+Infective:   0.000698126
+Susceptible, S(0) = 65777.940635	Infective, I(0) = 2094
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 1 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 2 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 3 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 4 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 5 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 6 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 7 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 8 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 9 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 10 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 11 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 12 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 13 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 14 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 15 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 16 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 17 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 18 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 19 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 20 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 21 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 22 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 23 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 24 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 25 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 26 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 27 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 28 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 29 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 30 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 31 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 32 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 33 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 34 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 35 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 36 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 37 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 38 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 39 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 40 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 41 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 42 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 43 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 44 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 45 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 46 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 47 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 48 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 49 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 50 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 51 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 52 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 53 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 54 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 55 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 56 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 57 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 58 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 59 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 60 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 61 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 62 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 63 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 64 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 65 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 66 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 67 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 68 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 69 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 70 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 71 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 72 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 73 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 74 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 75 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 76 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 77 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 78 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 79 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 80 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 81 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 82 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 83 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 84 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 85 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 86 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 87 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 88 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 89 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 90 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 91 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 92 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 93 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 94 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 95 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 96 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 97 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 98 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 99 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 100 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 101 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 102 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 103 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 104 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 105 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 106 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 107 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 108 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 109 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 110 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 111 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 112 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 113 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 114 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 115 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 116 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 117 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 118 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 119 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 120 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 121 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 122 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 123 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 124 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 125 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 126 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 127 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 128 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 129 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 130 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 131 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 132 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 133 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 134 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 135 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 136 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 137 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 138 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 139 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 140 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 141 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 142 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 143 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 144 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 145 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 146 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 147 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 148 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 149 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 150 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 151 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 152 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 153 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 154 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 155 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 156 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 157 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 158 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 159 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 160 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 161 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 162 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 163 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 164 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 165 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 166 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 167 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 168 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 169 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 170 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 171 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 172 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 173 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 174 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 175 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 176 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 177 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 178 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 179 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 180 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 181 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 182 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 183 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 184 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 185 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 186 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 187 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 188 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 189 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 190 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 191 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 192 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 193 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 194 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 195 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 196 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 197 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 198 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 199 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 200 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 201 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 202 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 203 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 204 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 205 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 206 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 207 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 208 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 209 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 210 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 211 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 212 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 213 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 214 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 215 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 216 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 217 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 218 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 219 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 220 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 221 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 222 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 223 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 224 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 225 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 226 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 227 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 228 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 229 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 230 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 231 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 232 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 233 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 234 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 235 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 236 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 237 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 238 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 239 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 240 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 241 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 242 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 243 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 244 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 245 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 246 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 247 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 248 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 249 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 250 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 251 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 252 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 253 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 254 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 255 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 256 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 257 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 258 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 259 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 260 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 261 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 262 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 263 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 264 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 265 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 266 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 267 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 268 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 269 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 270 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 271 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 272 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 273 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 274 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 275 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 276 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 277 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 278 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 279 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 280 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 281 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 282 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 283 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 284 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 285 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 286 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 287 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 288 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 289 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 290 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 291 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 292 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 293 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 294 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 295 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 296 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 297 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 298 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 299 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 300 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 301 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 302 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 303 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 304 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 305 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 306 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 307 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 308 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 309 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 310 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 311 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 312 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 313 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 314 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 315 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 316 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 317 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 318 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 319 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 320 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 321 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 322 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 323 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 324 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 325 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 326 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 327 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 328 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 329 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 330 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 331 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 332 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 333 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 334 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 335 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 336 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 337 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 338 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 339 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 340 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 341 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 342 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 343 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 344 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 345 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 346 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 347 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 348 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 349 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 350 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 351 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 352 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 353 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 354 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 355 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 356 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 357 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 358 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 359 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 360 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 361 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 362 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 363 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 364 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 365 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 366 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 367 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 368 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 369 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 370 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 371 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 372 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 373 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 374 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 375 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 376 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 377 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 378 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 379 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 380 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 381 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 382 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 383 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 384 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 385 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 386 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 387 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 388 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 389 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 390 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 391 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 392 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 393 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 394 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 395 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 396 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 397 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 398 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 399 of a total of 400
+Power Spectra calculated and accumulated...
+Initiating a New Realization... Initial Time: 0.000000
+Time failed in 0 occasions over 8192 time steps
+Accuracy might be too stringent (EPSILON too low)!
+If you don't like to fail, try to choose a larger EPSILON -E 2
+Realization: 400 of a total of 400
+Power Spectra calculated and accumulated...
+Power Spectra calculated over 400 stochastic realizations
+Overall_Power = 6.24122	Mean Squared Amplitude = 32.1219
+Px(0) = 5.60324	(Mean_Amplitude_x)^2 = 22.749
+Overall_Power = 1.17709	Mean Squared Amplitude = 0.478099
+Py(0) = 5.24379e-06	(Mean_Amplitude_y)^2 = 1.80352e-05
+Populations fractions at Equilibrium (Imm = 1e-05)...
+Susceptible: 0.0273788
+Infective:   0.000694234
+ MODEL RUNNING PARAMETERS:
+ -Q 0  >> Seasonal Forcing Control:
+      Q = 0 (Non-activation of an equivalent Transmission Rate)
+      Q = 1 (Non Seasonal Forced dynamics with an equivalent Beta)
+ -S 2  >> Seasonal Forcing Control:
+        S = 0 (No Seasonal Forcing)
+        S = 1 (Sinusoidal Seasonal Forcing)
+        S = 2 (beta = b_0 * (1 + b_1)^(Term)
+        S = 3 (beta = b_0 * (1. + Term * b_1)
+        where Term is +1 for school terms and -1 for holidays
+ -R 400 >> No REPLICAS or Stochastic Realizations
+ -K 2 >> No. of segments in which the time series will be fragmented
+ -T 8192 >> No. of Times to be saved
+ -t0 0.000000 >> Initial Time
+ -t1 491520.000000 >> Final Time
+ -Z 60.000000 >> Step Size
+ -E 2.000000 >> Maximum Error in Step Size
+ -I 2094 >> Initial number of Infective Individuals
+ -M 2932127 >> Initial number of Immune Individuals
+ -d 5.5e-05 >> Natural Mortality Rate
+  Induced Mortality:
+ -a 0 >> 	a=0
+  Direct Transmission Rates (Beta):
+ -b 3.5 >> 	b=3.5
+ -B[k]   >> Maximum and Minimum Transmission rates
+       >> k = 0,1
+       >> b_0 = 3.5 and b_1= 0.25
+ -mu 0 >> Loss of Immnunity Rate
+ -g 0.077 >> Recovery Rate from the infection phase
+  External Transmission Rate (Immigration):
+ -e 1e-05
+ -P 3000000 >> Population Size in the Villages
+
+
+End of progam
